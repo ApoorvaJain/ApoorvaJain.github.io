@@ -10,11 +10,11 @@
         $http.get('members.json').success(function(data) {
             $scope.members = data;
             //groups functionality
-        var group = {};
-            group.title = "All";
-            group.members = $scope.members;
+            var group = {};
+                group.title = "All";
+                group.members = $scope.members;
 
-        $scope.groups.push(group);
+            $scope.groups.push(group);
         });
         
         $scope.filter = {};
