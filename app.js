@@ -5,9 +5,16 @@
     app.controller('TeamController', ['$scope', '$http', '$mdDialog', '$mdMedia', function($scope, $http, $mdDialog, $mdMedia) {
 
         $scope.members = [];
+        $scope.groups = [];
         
         $http.get('members.json').success(function(data) {
             $scope.members = data;
+            //groups functionality
+        var group = {};
+            group.title = "All";
+            group.members = $scope.members;
+
+        $scope.groups.push(group);
         });
         
         $scope.filter = {};
@@ -41,14 +48,7 @@
         filterProperty.actualName = 'teams';
         $scope.filterProperties.push(filterProperty);
 
-        //groups functionality
-        $scope.groups = [];
-
-        var group = {};
-            group.title = "All";
-            group.members = $scope.members;
-
-        $scope.groups.push(group);
+        
 
         $scope.groupByProperty = function(){
             var currentGroupingCriteria = $scope.filter.model;
