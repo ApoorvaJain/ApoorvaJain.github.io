@@ -1,0 +1,73 @@
+{
+	id: 1,
+	name: "Apoorva",
+	displayPicture: "something.src",
+	discipline: "Dev",
+	designation: "developer",
+	teams: [{
+		name: "Oasis_Automation",
+		lead: 2,
+		manager: 3,
+		strength: 5
+		}],
+	location: "Hyderabad",
+	description: "blah blah blah",
+},
+{
+	id: 2,
+	name: "Swarup",
+	displayPicture: "something.src",
+	discipline: "Dev",
+	designation: "lead",
+	teams: [{
+		name: "Oasis_Automation",
+		lead: null,
+		manager: 3,
+		strength: 5
+		}],
+	location: "Hyderabad",
+	description: "blah blah blah",	
+},
+{
+	id: 3,
+	name: "Dominic",
+	displayPicture: "something.src",
+	discipline: "Management",
+	designation: "manager",
+	teams: [{
+		name: "Oasis_Automation",
+		lead: null,
+		manager: null,
+		strength: 5
+		},
+		{
+		name: "other teams",
+		lead: null,
+		manager: null,
+		strength: 5
+		}],
+	location: "Hyderabad",
+	description: "blah blah blah",	
+},
+{
+	id: 4,
+	name: "Sneha",
+	displayPicture: "something.src",
+	discipline: "QA",
+	designation: "quality assurance engineer",
+	teams: [{
+		name: "Oasis_Automation",
+		lead: 2,
+		manager: 3,
+		strength: 5
+		},
+		{
+		name: "xyz",
+		lead: 5,
+		manager: 3,
+		strength: 5
+		}],
+	location: "Hyderabad",
+	description: "blah blah blah",	
+}
+

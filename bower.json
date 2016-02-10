@@ -1,0 +1,20 @@
+{
+  "name": "Team Viewer",
+  "authors": [
+    "ajain <apoorva.jain.consultant@nielsen.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular-material": "^1.0.4",
+    "angular": "1.4.9"
+  }
+}

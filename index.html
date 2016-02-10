@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html ng-app = "teamViewer">
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Team Viewer</title>
+	<link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+	<link rel="stylesheet" href="Style/app.css">
+
+
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular/angular-sanitize.min.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="https://cdn.jsdelivr.net/angular-material-icons/0.6.0/angular-material-icons.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+
+<body ng-controller="TeamController as team" layout="column">
+
+	<div layout="column" class="relative" layout-fill role="main" >
+	    	<md-toolbar class="md-hue-1" ng-show="!showSearch">
+		        <div class="md-toolbar-tools">
+		        	<h1>Meet the neilsens</h1>
+		          <span flex></span>
+		          <md-button aria-label="Search" ng-click="showSearch = !showSearch">
+		            <ng-md-icon icon="search"></ng-md-icon>
+		          </md-button>
+
+		          <md-input-container>
+		                  <md-select ng-model="filter.model" ng-change="groupByProperty()">
+		                    <md-option ng-repeat="property in filterProperties" value="{{property.actualName}}">
+		                      {{property.displayName}}
+		                    </md-option>
+		                  </md-select>
+		           </md-input-container>
+
+		        </div>
+	      	</md-toolbar>
+	      	<md-toolbar class="md-hue-1" ng-show="showSearch">
+		        <div class="md-toolbar-tools">
+		          <md-button ng-click="showSearch = !showSearch" aria-label="Back">
+		            <ng-md-icon icon="arrow_back"></ng-md-icon>
+		          </md-button>
+		          <h2 flex="10">
+		            Back
+		          </h2>
+		          <md-input-container md-theme="input" flex>
+		            <label>&nbsp;</label>
+		            <input ng-model="search.name" placeholder="Search By Name">
+		          </md-input-container>
+		          <md-button aria-label="Search" ng-click="showSearch = !showSearch">
+		            <ng-md-icon icon="search"></ng-md-icon>
+		          </md-button>
+
+		        </div>      
+	      	</md-toolbar>
+
+	      	<md-content flex>
+	  			<div ng-cloak flex style="overflow:auto">
+	    	    	
+	  	      		<md-content class="md-padding" layout="column" style="overflow : auto">
+	  	      			
+  	      				<div ng-repeat="group in groups">
+  	      					<h3 class="md-headline tv-subheader head-bg"> {{group.title}} </h3>
+  			      			<md-grid-list
+  			      			        md-cols="1" md-cols-sm="2" md-cols-md="3" md-cols-gt-md="6"
+  			      			        md-row-height-gt-md="1:1" md-row-height="4:3"
+  			      			        md-gutter="8px" md-gutter-gt-sm="4px" >
+
+  			      			        <!-- Developer : Surabhi -->
+
+  			      			        <div class="module-container" ng-repeat="member in group.members | filter:search">
+										<div class="inner-module">
+											<a href="#" alt="" title="" tabindex="0" ng-click="showAdvanced($event, member, group.members)">
+												<div class="image">
+													<div class="img">
+														<img src="http://worldartsme.com/images/business-person-clipart-1.jpg"  title="" alt="Loading Image..">
+													</div>
+												</div>
+											</a>
+											<div class="content">
+												<h4 class="title">{{member.name}}</h4>
+												<div class="desc">
+													<span class="desc-content" data-ng-bind-html="member.description"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+  			      			<!--    <md-grid-tile ng-repeat="member in group.members">	
+  			      			      <md-grid-tile-footer><h3>{{member.name}}</h3></md-grid-tile-footer>
+  			      			    </md-grid-tile> -->
+
+  			      			    <!-- Developer : Surabhi -->
+  			      			</md-grid-list>
+  			      		</div>
+	  		      		
+	  	        	</md-content>
+	  		 
+	  			</div>
+	      	</md-content>
+	</div>
+
+</body>
+</html>

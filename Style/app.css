@@ -1,0 +1,164 @@
+@font-face {
+font-family: pacifico	;
+src: url('fonts/pacifico/Pacifico.ttf')  format('truetype');
+}
+
+html, body {
+
+	height: 100%;
+	width: 100%;
+}
+header {
+	height: 70px;
+	position: relative;
+	
+	background-color: #1a237e;
+	padding-top: 1px;
+	padding-left: 20px;
+	vertical-align: center; 
+}
+
+.md-toolbar-tools h1,.md-toolbar-tools h2 {
+	color: #fff;
+	font-size: 1.5em;
+	font-family: pacifico;
+}
+
+.tv-subheader{
+	color: rgb(26, 35, 126);
+}
+
+md-input-container .md-errors-spacer {
+  float: right;
+  min-height: 1px;
+  min-width: 1px;
+}
+
+.md-toolbar-tools .md-button{
+	min-width: 15px;
+	line-height: 0px;
+}
+
+.md-toolbar-tools .md-button ng-md-icon svg {
+	fill: white;
+}
+
+/****************** Developer : Surabhi ******************/
+
+md-content.md-padding.layout-column {
+    padding: 0px;
+}
+
+.dialogue-img{
+	padding: 0px 10px;
+    height: 300px;
+    width: 700px;
+}
+
+.layout-column{
+	background-color: #f6f6f6 !important;
+}
+
+.md-select-value .md-text {
+    font-size: 16px;
+}
+
+md-toolbar *, md-toolbar *:before, md-toolbar *:after {
+    border: 0px !important;
+}
+
+.md-select-menu-container {
+    left: 1139px !important;
+    top: 48px !important;
+}
+
+.head-bg{
+	background: -moz-linear-gradient(left, #1e5799 0%, #1a237e 0%, #f6f6f6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #1e5799 0%,#1a237e 0%,#f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #1e5799 0%,#1a237e 0%,#f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	color: #fff;
+	height: 36px;
+    padding: 4px 25px 0;
+	width: 65%;
+}
+
+/* Making 'rgba(255,255,255,0.87)' as constant color for search and select values */
+
+md-select.md-default-theme:not([disabled]):focus .md-select-value, md-select:not([disabled]):focus .md-select-value, md-input-container.md-input-theme .md-input {
+	color: rgba(255,255,255,0.87) !important;
+}
+
+/* card module */
+
+/* reset styles start */
+
+.module-container, .module-container div{
+	margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.module-container img {
+    border: 0;
+}
+
+/* reset styles end */
+
+.module-container h4,.module-container h5, .module-container h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.module-container {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, .05);
+    float: left;
+    height: 380px;
+    margin-bottom: 30px;
+    margin-left: 3.3%;
+    width: 16%;
+}
+
+.module-container:focus, .module-container:hover {
+    box-shadow: 0 0 5px 1px #999;
+    outline: 0;
+}
+
+.module-container, .module-container .image {
+    position: relative;
+}
+
+.module-container .title {
+    color: #000;
+    font: 15px/20px pacifico;
+}
+
+.module-container .image .img {
+    border-radius: 6px 6px 0 0;
+    height: 155px;
+    overflow: hidden;
+}
+
+.module-container .image img {
+    border-radius: 6px 6px 0 0;
+    height: 157px;
+    padding: 10px 38px;
+}
+
+.module-container .content {
+    padding: 10px 20px 60px;
+}
+
+.module-container .desc {
+    color: #000;
+    font: 13px/18px ariel;
+}
+
+/* dialogue box */
+md-chips.md-default-theme .md-chip, md-chips .md-chip {
+    background-color: rgb(26,35,126);
+    color: rgba(255,255,255,0.87);
+}
+
+/****************** Developer : Surabhi ******************/
