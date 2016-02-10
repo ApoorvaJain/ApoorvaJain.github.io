@@ -21,12 +21,6 @@
 
         $scope.filter.model = 'all';
 
-
-        var filterProperty = {};
-        filterProperty.displayName = 'Name';
-        filterProperty.actualName = 'name';
-        $scope.filterProperties.push(filterProperty);
-
         var filterProperty = {};
         filterProperty.displayName = 'Discipline';
         filterProperty.actualName = 'discipline';
