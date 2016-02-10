@@ -4,6 +4,8 @@
     
     app.controller('TeamController', ['$scope', '$http', '$mdDialog', '$mdMedia', function($scope, $http, $mdDialog, $mdMedia) {
 
+        $scope.members = [];
+        
         $http.get('members.json').success(function(data) {
             $scope.members = data;
         });
