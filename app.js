@@ -1,12 +1,13 @@
 (function(){
-
   	var app = angular.module('teamViewer', ['ngMaterial','ngMdIcons', 'ngSanitize']);
 
   	
   	app.controller('TeamController', function($scope, $mdDialog, $mdMedia) {
 
+        $scope.members = $http.get('members.json').success(function(response) {
+            return response.data;
+        });
 
-    	$scope.members = members;
     	$scope.filter = {};
 
     	$scope.filterProperties = [];
