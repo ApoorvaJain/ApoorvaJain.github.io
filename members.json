@@ -43,5 +43,500 @@
 				}],
 			"location": "Hyderabad",
 			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 1,
+			"name": "Apoorva",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "developer",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": 2,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 2,
+			"name": "Payal",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "lead",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 3,
+			"name": "Suraj",
+			"displayPicture": "images/dummy_male1.png",
+			"discipline": "Management",
+			"designation": "manager",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": null,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 1,
+			"name": "Apoorva",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "developer",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": 2,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 2,
+			"name": "Payal",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "lead",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 3,
+			"name": "Suraj",
+			"displayPicture": "images/dummy_male1.png",
+			"discipline": "Management",
+			"designation": "manager",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": null,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 1,
+			"name": "Apoorva",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "developer",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": 2,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 2,
+			"name": "Payal",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "lead",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 3,
+			"name": "Suraj",
+			"displayPicture": "images/dummy_male1.png",
+			"discipline": "Management",
+			"designation": "manager",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": null,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 1,
+			"name": "Apoorva",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "developer",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": 2,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 2,
+			"name": "Payal",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "lead",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 3,
+			"name": "Suraj",
+			"displayPicture": "images/dummy_male1.png",
+			"discipline": "Management",
+			"designation": "manager",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": null,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 1,
+			"name": "Apoorva",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "developer",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": 2,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 2,
+			"name": "Payal",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "lead",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 3,
+			"name": "Suraj",
+			"displayPicture": "images/dummy_male1.png",
+			"discipline": "Management",
+			"designation": "manager",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": null,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 1,
+			"name": "Apoorva",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "developer",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": 2,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 2,
+			"name": "Payal",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "lead",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 3,
+			"name": "Suraj",
+			"displayPicture": "images/dummy_male1.png",
+			"discipline": "Management",
+			"designation": "manager",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": null,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 1,
+			"name": "Apoorva",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "developer",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": 2,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 2,
+			"name": "Payal",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "lead",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 3,
+			"name": "Suraj",
+			"displayPicture": "images/dummy_male1.png",
+			"discipline": "Management",
+			"designation": "manager",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": null,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 1,
+			"name": "Apoorva",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "developer",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": 2,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 2,
+			"name": "Payal",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "lead",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 3,
+			"name": "Suraj",
+			"displayPicture": "images/dummy_male1.png",
+			"discipline": "Management",
+			"designation": "manager",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": null,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 1,
+			"name": "Apoorva",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "developer",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": 2,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 2,
+			"name": "Payal",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "lead",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 3,
+			"name": "Suraj",
+			"displayPicture": "images/dummy_male1.png",
+			"discipline": "Management",
+			"designation": "manager",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": null,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 1,
+			"name": "Apoorva",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "developer",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": 2,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 2,
+			"name": "Payal",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "lead",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 3,
+			"name": "Suraj",
+			"displayPicture": "images/dummy_male1.png",
+			"discipline": "Management",
+			"designation": "manager",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": null,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 1,
+			"name": "Apoorva",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "developer",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": 2,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 2,
+			"name": "Payal",
+			"displayPicture": "images/dummy_female1.png",
+			"discipline": "Dev",
+			"designation": "lead",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": 3,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+	},
+	{
+		"id": 3,
+			"name": "Suraj",
+			"displayPicture": "images/dummy_male1.png",
+			"discipline": "Management",
+			"designation": "manager",
+			"teams": [{
+				"name": "Chat Handlers",
+				"lead": null,
+				"manager": null,
+				"strength": 5
+				}],
+			"location": "Hyderabad",
+			"description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
 	}
 ]
