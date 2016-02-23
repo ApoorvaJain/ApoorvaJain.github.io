@@ -1,0 +1,45 @@
+<md-dialog aria-label="Mango (Fruit)"  ng-cloak>
+  <form>
+    <md-toolbar class='md-hue-1'>
+    <div class='md-toolbar-tools'>
+      <h2>member.name </h2><span flex></span>
+      <md-button class='md-icon-button' ng-click='cancel()' ><span class='md-title'>X<span></md-icon></md-button>
+
+    </div>
+  </md-toolbar>
+    <md-dialog-content>
+      <div class="md-dialog-content">
+        
+        <img style="margin: auto; max-width: 100%;" alt="Lush mango tree" src="images/dummy_female1.png">
+
+        <md-divider></md-divider>
+        <div class='chip-space'>
+          <md-chips><md-chip>member.designation </md-chip>
+          <md-chip>member.discipline </md-chip>
+          <md-chip>member.teams[0].name </md-chip></md-chips>
+        </div>
+
+
+        <div class=''>
+        <p>Team : member.teams[0].name </p>
+        <p>Designation : member.designation </p>
+        <p>Discipline : member.discipline </p>
+        <p data-ng-hide='noLead '>Lead : memberLead </p><p data-ng-hide='noManager '>Manager : memberManager </p>
+        <p>Location : member.location </p>
+        <md-divider></md-divider>
+        <p>Info : member.location </p>
+        <md-divider></md-divider>
+      </div>
+
+    </md-dialog-content>
+    <!-- <md-dialog-actions layout="row">
+      <span flex></span>
+      <md-button ng-click="answer('not useful')">
+       Not Useful
+      </md-button>
+      <md-button ng-click="answer('useful')" style="margin-right:20px;">
+        Useful
+      </md-button>
+    </md-dialog-actions> -->
+  </form>
+</md-dialog>
