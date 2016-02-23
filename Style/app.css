@@ -74,8 +74,6 @@ md-content.md-padding.layout-column {
 }
 
 .head-bg{
-	background: -moz-linear-gradient(left, #1e5799 0%, #1a237e 0%, #f6f6f6 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #1e5799 0%,#1a237e 0%,#f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
 	background: #1a237e; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	color: #fff;
 	height: 36px;
@@ -90,12 +88,13 @@ md-select.md-default-theme:not([disabled]):focus .md-select-value, md-select:not
 }
 
 .module-container {
-    /*float: left;*/
     height: auto;
     margin-bottom: 1%;
     margin-left: 1%;
     min-width: 200px;
-    min-height: 300px;
+    margin-bottom: 40px;
+    margin-left: 2%;
+    width:10%;
 }
 
 .module-container:focus, .module-container:hover {
@@ -131,9 +130,8 @@ md-card md-card-title {
   }
 
   .memberImage{
-    /*width: 75%;*/
-    padding-top: 10px;
-    padding-bottom: 15px;
+    /*padding-top: 10px;
+    padding-bottom: 15px;*/
   }
 
   .gridList
@@ -147,3 +145,19 @@ md-card md-card-title {
   {
     display:none;
   }
+
+  .imageHyperLink{
+    opacity: 1;
+    transition:0.2s ease all; 
+  }
+
+#test
+{
+  display:flex;
+  flex-wrap:nowrap;
+  align-items: center;
+}
+/*
+  md-input-container .md-input {
+    width: 100%;
+}*/

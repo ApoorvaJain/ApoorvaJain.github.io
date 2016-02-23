@@ -14,73 +14,49 @@
     <script src="bower_components/angular-material/angular-material.js"></script>
     <script src="https://cdn.jsdelivr.net/angular-material-icons/0.6.0/angular-material-icons.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
+
 </head>
 
 <body ng-controller="TeamController as team" layout="column">
 
 
-<md-toolbar>
+	<md-toolbar md-scroll-shrink="" ng-show="!showSearch">
       <div class="md-toolbar-tools">
-        <h2>
+        <h3>
           <span>Meet the Nielsens</span>
-        </h2>
-        <md-button aria-label="Go Back">
-          Go Back
-        </md-button>
+        </h3>
+        
         <span flex></span>
-        <md-button class="md-raised" aria-label="Search">
+        <md-button class="md-raised" aria-label="Search" ng-click="showSearch = !showSearch">
           Search
         </md-button>
-        <md-button class="md-fab md-mini" aria-label="Favorite">
-          <md-icon md-svg-icon="img/icons/favorite.svg"></md-icon>
-        </md-button>
+        <md-input-container >
+          <md-select ng-model="filter.model" ng-change="groupByProperty()">
+            <md-option ng-repeat="property in filterProperties" value="{{property.actualName}}">
+              {{property.displayName}}
+            </md-option>
+          </md-select>
+         </md-input-container>
       </div>
     </md-toolbar>
 
-
-<!-- 
-
-			<md-toolbar md-scroll-shrink="" class="md-hue-1" ng-show="!showSearch">
-        <div class="md-toolbar-tools">
-        	
-          <span flex><h1>Meet the Nielsens</h1></span>
-
-          <md-button class="md-raised" ng-click="showSearch = !showSearch" aria-label="Back">Search
-            <ng-md-icon icon="search"></ng-md-icon>
-          </md-button>
-
-          <md-input-container >
-              <md-select ng-model="filter.model" ng-change="groupByProperty()">
-                <md-option ng-repeat="property in filterProperties" value="{{property.actualName}}">
-                  {{property.displayName}}
-                </md-option>
-              </md-select>
-           </md-input-container>
-
-        </div>
-  	</md-toolbar>
-
-
-  	<md-toolbar class="md-hue-1" ng-show="showSearch">
-        <div class="md-toolbar-tools">
-
-          <md-button class="md-raised" ng-click="showSearch = !showSearch" aria-label="Back">Back
-            <ng-md-icon icon="arrow_back"></ng-md-icon>
-          </md-button>
-          <h2 flex="10">
-          </h2>
-
-          <md-input-container class="md-block" flex-gt-sm>
+    <md-toolbar ng-show="showSearch">
+      <div class="md-toolbar-tools">
+        <h3>
+          <span>Meet the Nielsens</span>
+        </h3>
+        <md-icon md-svg-icon="alarm"         style="color: #0F0;"                        aria-label="Alarm Icon"></md-icon>
+	        <md-button class="md-raised" ng-click="showSearch = !showSearch" aria-label="Back">Back
+	            
+	        </md-button>
+        <!-- <h2 flex="10">
+        </h2> -->
+        <md-input-container class="md-block">
             <label>&nbsp;</label>
             <input ng-model="search.name" placeholder="Search By Name">
-          </md-input-container>
-          <md-button aria-label="Search" ng-click="showSearch = !showSearch">
-            <ng-md-icon icon="search"></ng-md-icon>
-          </md-button>
-
-        </div>      
-  	</md-toolbar> -->
-
+        </md-input-container>
+      </div>
+    </md-toolbar>
 
 	<div layout="column" class="relative" layout-fill role="main" flex>
 	    	
@@ -100,29 +76,28 @@
   			      			        <div class="module-container" ng-repeat="member in group.members | filter:search">
 				
 								      <md-card>
-								        
 
-<!-- <a href="#" alt="" title="" tabindex="0" ng-click="showAdvanced($event, member, group.members)">
+										<!-- <a href="#" alt="" title="" tabindex="0" ng-click="showAdvanced($event, member, group.members)">
 												<div class="image">
 													<div class="img">
 														<img src="images/dummy_female1.png"  title="" alt="Loading Image..">
 													</div>
 												</div>
 											</a>
- -->
+										-->
 
 								        <md-card-title-media>
-								        <a href="#" alt="" title="" tabindex="0" ng-click="showAdvanced($event, member, group.members)">
+								        <a class = "imageHyperLink" href="#" alt="" title="" tabindex="0" ng-click="showAdvanced($event, member, group.members)" >
 									        <div class="md-media-lg card-media imageHolder">
 									        	<img class="memberImage" ng-src="images/dummy_female1.png">
 									        </div>
 									        </a>
 								        </md-card-title-media>
-								        <md-divider></md-divider>
+								        
 								        <md-card-title>
 								          <md-card-title-text flex style="overflow:hidden">
 								            <span class="md-headline">Name:{{member.name}}</span>
-								            <span class="md-subhead">Designation:Sample	</span>
+								            <span class="md-subhead">Designation: {{member.designation}}	</span>
 											<div class="toHide" flex>
 											<span class="desc-content" data-ng-bind-html="member.description"></span>
 								            
